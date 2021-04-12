@@ -1,14 +1,15 @@
-import React from "react"
-import Layout from "../components/layout"
+import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Layout from '../components/layout';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Col, Nav } from 'react-bootstrap'
-import Navs from "../components/Navs"
+import Navs from '../components/Navs';
 
-export default function Home() {
-  return (
-    <Layout>
+export default function admin() {
+    return (
+        <Layout>
         <Col md={12}>
-                        <Navs 
+            <Navs 
                           to={'/'}
                           expand={'lg'}
                           brandValue={'MinhaEmpresa'}
@@ -19,12 +20,11 @@ export default function Home() {
                               <Nav.Link href="/">inicio</Nav.Link>,
                               <Nav.Link href="/admin">Admin</Nav.Link>
                             ]}>
-                          </Navs>
-
+            </Navs>
         </Col>
         <Col  md={12}>
-            <h1>Home</h1>
+            <h1>Admin</h1>
         </Col>
     </Layout>
-  )
+    )
 }
