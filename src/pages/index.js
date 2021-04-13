@@ -18,7 +18,7 @@ export default function Home() {
           variant={"dark"}
           navlinks={[
             <Nav.Link href="/">inicio</Nav.Link>,
-            <Nav.Link href="/cadastrar">Cadastre-se</Nav.Link>
+            <Nav.Link href="/cadastrar">Cadastre-se</Nav.Link>,
           ]}
         ></Navs>
       </Col>
