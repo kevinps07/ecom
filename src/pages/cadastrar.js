@@ -18,12 +18,12 @@ export default function admin() {
           variant={"dark"}
           navlinks={[
             <Nav.Link href="/">inicio</Nav.Link>,
-            <Nav.Link href="/admin">Admin</Nav.Link>,
+            <Nav.Link href="/cadastrar">Cadastre-se</Nav.Link>,
           ]}
         ></Navs>
       </Col>
       <Col md={12}>
-        <h1>Admin</h1>
+        <h1>Cadastro</h1>
       </Col>
     </Layout>
   )
